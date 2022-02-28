@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  background-color: gainsboro;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  background-color: whitesmoke;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 8vh;
+}
+nav img {
+  width: 40px;
+  height: 40px;
+}
+
+nav div {
+  display: flex;
+}
+nav .left-side {
+  flex: 50%;
+  text-align: center;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+}
+
+nav .left-side .home {
+  font-weight: 900;
+}
+nav .right-side {
+  flex: 50%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav .right-side a {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  width: 15%;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.background {
+  border: 1px solid;
+  background-color: white;
+  margin: 45px;
+}
+.background .container-right .profile {
+  border: 3px solid;
+  padding: 20px;
+  margin: auto;
+  width: 400px;
+  /* margin-top: 2px; */
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 10px 18px red;
+  /* margin-right: 30px; */
+}
+
+.background .container-right img {
+  width: 350px;
+  padding-left: 50px;
+}
+.background .container-right .table {
+  width: 100px;
+  border-collapse: collapse;
+}
+
+.container {
+  display: flex;
+}
+.container .content {
+  display: flex;
+  margin-top: 20px;
+}
+.content .contact {
+  flex: 30%;
+  margin-left: 15px;
+}
+.content .download {
+  flex: 70%;
+}
+.container .container-left {
+  flex: 60%;
+  /* border: 1px solid red; */
+  align-items: center;
+}
+.container .container-left .title {
+  /* border: 1px solid; */
+  padding: 15px;
+  width: 700px;
+  margin-left: 70px;
+  margin-top: 50px;
+  text-align: justify;
+}
+.container .container-left button {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 70px;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.container .container-right {
+  flex: 40%;
+  /* border: 2px solid black; */
+}
+
+.social-media {
+  margin-left: 8%;
+  margin-top: 40px;
+}
+.social-media i {
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 40px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 15px;
+}

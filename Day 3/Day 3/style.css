@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+nav ul {
+    list-style-type: none;
+
+}
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    padding-left: 90px;
+    padding-right: 90px;
+    height: 7vh;
+}
+nav div{
+    display: flex;
+    
+}
+nav .left-side{
+    flex: 50%;
+    text-align: center;
+}
+
+nav img{
+    width: 100px;
+    height: 65px;
+;
+}
+nav .right-side {
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center
+}
+
+nav .right-side a{
+    background-color: orangered;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

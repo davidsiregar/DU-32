@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Day 3/style2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .input-blog-image-group {
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        background: yellow;
+        border: 1px solid;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 37%;
+        /* display: flex; */
+      }
+
+      .input-blog-image-group label {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background: green; */
+      }
+
+      .input-blog-image-group p {
+        font-size: 15px;
+        margin-top: 20px;
+      }
+    </style>
+    <div>
+      <label>Upload Image</label>
+      <div class="input-blog-image-group">
+        <label for="input-image">
+          <p>Option</p>
+          <img src="../Day 3/asset/upload-image.png" alt="file" />
+        </label>
+        <input type="file" id="input-image" hidden />
+      </div>
+    </div>
+  </body>
+</html>
